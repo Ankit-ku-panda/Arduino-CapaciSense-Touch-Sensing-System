@@ -1,0 +1,75 @@
+{
+  "version": 1,
+  "author": "",
+  "editor": "wokwi",
+  "parts": [
+    {
+      "type": "wokwi-arduino-uno",
+      "id": "uno",
+      "top": 110,
+      "left": 40,
+      "attrs": {}
+    },
+    {
+      "type": "wokwi-pushbutton",
+      "id": "touch",
+      "top": -30,
+      "left": 310,
+      "attrs": {
+        "color": "green",
+        "label": "Simulated touch",
+        "bounce": "0"
+      }
+    },
+    {
+      "type": "wokwi-led",
+      "id": "led",
+      "top": -70,
+      "left": 80,
+      "attrs": {
+        "color": "red"
+      }
+    },
+    {
+      "type": "wokwi-resistor",
+      "id": "r1",
+      "top": 30,
+      "left": 105,
+      "attrs": {
+        "value": "220"
+      }
+    }
+  ],
+  "connections": [
+    [
+      "uno:4",
+      "touch:1.l",
+      "green",
+      []
+    ],
+    [
+      "touch:2.l",
+      "uno:GND.1",
+      "black",
+      []
+    ],
+    [
+      "uno:13",
+      "r1:1",
+      "red",
+      []
+    ],
+    [
+      "r1:2",
+      "led:A",
+      "red",
+      []
+    ],
+    [
+      "led:C",
+      "uno:GND.2",
+      "black",
+      []
+    ]
+  ]
+}

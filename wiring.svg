@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="480" viewBox="0 0 960 480">
+<rect width="960" height="480" fill="#f5f7fb"/>
+<g font-family="Arial,sans-serif" fill="#18243a">
+<text x="45" y="50" font-size="28" font-weight="bold">CapaciSense · Arduino Uno wiring</text>
+<text x="45" y="80" font-size="17">Connection diagram · disconnect USB before wiring</text>
+<rect x="45" y="120" width="185" height="295" rx="18" fill="#087f8c"/>
+<g fill="white" font-size="22"><text x="70" y="160">Arduino Uno</text><text x="170" y="211">D2</text><text x="170" y="281">D4</text><text x="157" y="346">D13</text><text x="155" y="396">GND</text></g>
+<g stroke="#243750" stroke-width="4" fill="none"><path d="M230 205 H360 M460 205 H570 V275 H230 M570 275 H730"/><path d="M230 340 H360 M460 340 H630 M680 340 H850 V390 H230"/></g>
+<rect x="360" y="190" width="100" height="30" rx="3" fill="#ffdb8c" stroke="#243750" stroke-width="3"/>
+<text x="350" y="174" font-size="20">10 MΩ</text>
+<circle cx="570" cy="275" r="6" fill="#243750"/>
+<rect x="730" y="235" width="170" height="65" rx="8" fill="#cbd5e1" stroke="#243750" stroke-width="2"/>
+<text x="756" y="273" font-size="21">Foil pad</text>
+<rect x="360" y="325" width="100" height="30" rx="3" fill="#ffdb8c" stroke="#243750" stroke-width="3"/>
+<text x="360" y="315" font-size="18">220 Ω</text>
+<path d="M630 324 L630 356 L670 340 Z M675 321 V359" stroke="#243750" stroke-width="3" fill="#f36b70"/>
+<text x="589" y="319" font-size="16">+ anode</text><text x="686" y="320" font-size="16">− cathode</text>
+<text x="275" y="443" font-size="18">External LED optional — the onboard L LED also lights.</text>
+</g></svg>
